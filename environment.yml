@@ -1,0 +1,7 @@
+name: chinese-seg38
+channels:
+  - defaults
+dependencies:
+  - python=3.8.20
+  - pip
+

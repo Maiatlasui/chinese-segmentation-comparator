@@ -1,0 +1,34 @@
+# Local Python and Conda environments
+.conda/
+.conda38/
+.venv/
+.venv*/
+env/
+venv/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Downloaded model and package caches
+.hanlp/
+.cache/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+
+# User inputs and generated exports
+uploads/
+exports/
+segmentation-comparison*.txt
+*-segmentation*.txt
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

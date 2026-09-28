@@ -1,0 +1,11 @@
+# The complete five-tool application is tested on Python 3.8.20.
+# See README for pkuseg's legacy build constraints.
+streamlit==1.39.0
+pytest==8.3.5
+numpy==1.24.4
+jieba==0.42.1
+hanlp==2.1.5
+ltp==4.2.14
+# LTP 4.2.14 still calls hf_hub_download(use_auth_token=...), removed in Hub 1.x.
+huggingface-hub==0.36.0
+thulac==0.2.2

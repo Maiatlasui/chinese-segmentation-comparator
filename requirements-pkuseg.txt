@@ -1,0 +1,3 @@
+# Install Cython==0.29.37 first, then use --no-build-isolation with this file.
+# pkuseg's generated extension targets the CPython 3.8 C API.
+pkuseg==0.0.25
